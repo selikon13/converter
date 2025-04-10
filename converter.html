@@ -1,0 +1,68 @@
+<!DOCTYPE htmn>
+<header>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="style_converter.css">
+</header>
+
+<body>
+    <div class="page-container">
+        <div class="converter-page">
+            <h1>Currency converter</h1>
+            <div class="summ">
+                <label for="name">Enter the amount:</label>
+                <input type="text" id="name" name="name" inputmode="numeric" pattern="[0-9]*"
+                    oninput="validateInput(this)">
+            </div>
+
+            <div class="select-container">
+                <form class="select">
+                    <label for="cash">From:</label>
+                    <select id="fromValue" class="choize1">
+                        <option disabled selected>Select currency</option>
+                        <option value="RUB">Rubles</option>
+                        <option value="USD">Dollar</option>
+                        <option value="EUR">Euro</option>
+                        <option value="INR">Rupees</option>
+                        <option value="BRL">Real</option>
+                        <option value="TRY">Lira</option>
+                        <option value="GBP">Sterling</option>
+                        <option value="CNY">Yuan</option>
+                        <option value="JPY">Yen</option>
+                        <option value="THB">Bath</option>
+                    </select>
+                </form>
+                <div class="select-container">
+                    <form class="select">
+                        <label for="cash">In:</label>
+                        <select id="toValue" class="choize2">
+                            <option disabled selected>Select currency</option>
+                            <option value="RUB">Rubles</option>
+                            <option value="USD">Dollar</option>
+                            <option value="EUR">Euro</option>
+                            <option value="INR">Rupees</option>
+                            <option value="BRL">Real</option>
+                            <option value="TRY">Lira</option>
+                            <option value="GBP">Sterling</option>
+                            <option value="CNY">Yuan</option>
+                            <option value="JPY">Yen</option>
+                            <option value="THB">Bath</option>
+                        </select>
+                    </form>
+                </div>
+                <button id="touch" class="button">
+                    Convert
+                </button>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <p><span class="close">&darr;</span></p>
+                        <a id="modalResult">Receive</a>
+                        <span id="error-message-modal" style="color: red; display: none;">Please, enter only numbers.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js" defer></script>
+        <script src="apiKey.js" defer></script>
+</body>

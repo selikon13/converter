@@ -1,0 +1,69 @@
+.select label {
+    display: inline-block;
+    width: 130px;
+    text-align: right;
+    margin-right: 3px;
+    margin-left: 10px;
+}
+
+
+.select select {
+    width: 42%;
+    font-size: 16px;
+}
+
+.button {
+    font-size: 18px;
+}
+
+.close {
+    font-size: 20px;
+}
+
+body {
+    font-size: 20px;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.converter-page {
+    border: 2px solid #ccc;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.summ {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+}
+.summ label {
+    margin-right: 10px;
+}
+
+.select-container {
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+
+.choize1 {
+    font-size: 16px;
+}
+
+.choize2 {
+    font-size: 16px;
+}
