@@ -36,4 +36,4 @@ This project uses FreeCurrencyAPI ([https://app.freecurrencyapi.com/](https://ap
 
 ## Authors 
 
-* selikon13
+* selikon13 (GitHub https://github.com/selikon13)
