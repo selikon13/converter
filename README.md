@@ -41,12 +41,13 @@ Open file `index.html` file in your browser or use Live Server in your code edit
 - Structure: HTML
 - Style: CSS3
 - Logistics: Vanilla JavaScript
+- Adaptive: Descktop-first + media queries
 
 ## 🧑🏻‍💻 API 
 
 This project uses FreeCurrencyAPI ([https://app.freecurrencyapi.com/](https://app.freecurrencyapi.com/)) for up-to-date exchange rates. Check out the FreeCurrencyAPI documentation for rate limits and available currencies.
 
-# Contacts
+## Contacts
 
 - Email: fnaffi095@gmail.com
 - GitHub: selikon13 (https://github.com/selikon13)
