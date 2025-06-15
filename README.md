@@ -1,39 +1,52 @@
 # Currency converter
 
+Project link:
+
 ## Description
 
-This project is simple currency web-converter, which allows users convert amount from one currebcy to nother, using current exchange rates.
+Simple web application for currency conversion with current retes
 
-## Functionality
+## Peculiarities
 
-* **Select currecy:** Possibility to select target currency from the list.
-* **Entering the amount:** Field for entering the amount that can be converted.
-* **Automatic rate update:** The exchange rate is automatically updated.
-* **Displaying tthe result:** The conversion result is displayed in a separate line.
+- 🔁 **Realtime conversion** using current exchange rates
+- 📱 **Adaptive interface**
+- 💾 **Local data** processing without page reloading
+- 🌏 **Support for 10+ currencies** (USD, EUR, RUB and others)
+- 🏎️ **Instant results** accurate to 2 decimal places 
 
-## Technologies
+## ⚙️ Installation and configuration
 
-* HTML
-* CSS
-* JavaScript
-* FreeCurrencyAPI ([https://app.freecurrencyapi.com/](https://app.freecurrencyapi.com/))
+### Local load:
 
-## Usage
+`git clone https://github.com/yourusername/currency-converter.git`
 
-1. Select the source currency in the first drop-down list.
-2. Select the target currency in the second drop-down list.
-3. Enter the amount you want to convert in the input field.
-4. Click the "convert" button.
-5. The conversion result will be displayed auromatically.
+`cd currency-converter`
 
-## Configuration
+Open file `index.html` file in your browser or use Live Server in your code editor
 
-* **Currencies:** The list of currencies available for confersion is specifies in the file `converter.html`
+### How to use
 
-## API 
+1. Select the source currency
+2. Select the target currency
+3. Enter the amount
+4. Click "Convert"
+5. The result will appear in the window below the arrow
+
+## 📸 Screnshoots
+
+![Converter](images/Converter-images.jpeg)
+
+## 🛠️ Technologies
+
+- Structure: HTML
+- Style: CSS3
+- Logistics: Vanilla JavaScript
+
+## 🧑🏻‍💻 API 
 
 This project uses FreeCurrencyAPI ([https://app.freecurrencyapi.com/](https://app.freecurrencyapi.com/)) for up-to-date exchange rates. Check out the FreeCurrencyAPI documentation for rate limits and available currencies.
 
-## Authors 
+# Contacts
 
-* selikon13 (GitHub https://github.com/selikon13)
+- Email: fnaffi095@gmail.com
+- GitHub: selikon13 (https://github.com/selikon13)
