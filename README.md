@@ -18,7 +18,7 @@ Simple web application for currency conversion with current retes
 
 ### Local load:
 
-`git clone https://github.com/yourusername/currency-converter.git`
+`git clone https://github.com/selikon13/converter.git`
 
 `cd currency-converter`
 
